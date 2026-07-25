@@ -6,12 +6,12 @@
     <property name="screen0" type="empty">
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/home/chiku/.config/variety/wallpaper/wallpaper-auto-rotated-4ab5e4c518520ca044a534608a45cc60.jpg"/>
+          <property name="last-image" type="string" value="/home/chiku/.config/variety/wallpaper/wallpaper-auto-rotated-d53450573a6c96a574c31da878155308.jpg"/>
           <property name="image-style" type="int" value="3"/>
         </property>
       </property>
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/chiku/.config/variety/wallpaper/wallpaper-auto-rotated-4ab5e4c518520ca044a534608a45cc60.jpg"/>
+        <property name="image-path" type="string" value="/home/chiku/.config/variety/wallpaper/wallpaper-auto-rotated-d53450573a6c96a574c31da878155308.jpg"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="image-style" type="int" value="5"/>
       </property>

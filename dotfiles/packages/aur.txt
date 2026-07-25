@@ -1,0 +1,15 @@
+betterlockscreen
+downgrade
+gtk-engine-murrine
+neofetch
+pokemon-colorscripts-git
+ttf-victor-mono
+wallust
+wallust-debug
+waypaper
+whitesur-gtk-theme
+whitesur-icon-theme
+wlogout
+yay
+yay-debug
+zen-browser-bin
