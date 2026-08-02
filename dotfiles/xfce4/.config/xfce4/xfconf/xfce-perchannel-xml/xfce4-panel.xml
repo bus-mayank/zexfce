@@ -15,6 +15,8 @@
         <value type="int" value="1"/>
         <value type="int" value="24"/>
         <value type="int" value="2"/>
+        <value type="int" value="13"/>
+        <value type="int" value="12"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="19"/>
@@ -46,10 +48,11 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="button-title" type="string" value="APPS"/>
-      <property name="button-icon" type="string" value="distributor-logo-archlinux"/>
+      <property name="button-icon" type="string" value="clash"/>
       <property name="small" type="bool" value="false"/>
       <property name="show-tooltips" type="bool" value="false"/>
       <property name="show-generic-names" type="bool" value="false"/>
+      <property name="custom-menu" type="bool" value="false"/>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
@@ -67,6 +70,7 @@
       <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="true"/>
       <property name="wrap-workspaces" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="true"/>
     </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -74,6 +78,9 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="wi-fi network connection “harish” active: harish (99%)"/>
         <value type="string" value="wi-fi network connection “harish” active: harish (95%)"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="variety"/>
@@ -92,6 +99,8 @@
         <value type="string" value="no network connection"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="redshift"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="Nt8hx4Jjgy"/>
         <value type="string" value="lAO7nknbMF"/>
         <value type="string" value="yzde35gEor"/>
@@ -121,7 +130,8 @@
     <property name="plugin-10" type="string" value="actions"/>
     <property name="plugin-19" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="zen"/>
+      <property name="known-players" type="string" value="vlc;zen"/>
+      <property name="volume-step" type="uint" value="3"/>
     </property>
     <property name="plugin-20" type="string" value="power-manager-plugin"/>
     <property name="plugin-23" type="string" value="cpugraph">
@@ -203,6 +213,26 @@
         <value type="double" value="1"/>
       </property>
     </property>
-    <property name="plugin-24" type="string" value="separator"/>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="genmon">
+      <property name="command" type="string" value="/home/chiku/.scripts/nowplaying.sh"/>
+      <property name="use-label" type="bool" value="true"/>
+      <property name="text" type="string" value=""/>
+      <property name="update-period" type="int" value="1000"/>
+      <property name="enable-single-row" type="bool" value="true"/>
+      <property name="font" type="string" value="JetBrainsMono Nerd Font Semi-Bold Italic 10"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.12.0"/>
+      </property>
+    </property>
   </property>
 </channel>

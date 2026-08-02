@@ -27,6 +27,11 @@ require("lazy").setup({
       vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
     end,
   },
+
+    -- vim-be-good
+  "ThePrimeagen/vim-be-good",
+  -- Treesitter
+
   -- Treesitter (syntax highlighting)
   {
     "nvim-treesitter/nvim-treesitter",
@@ -82,4 +87,18 @@ require("lazy").setup({
       require("gitsigns").setup()
     end,
   },
+
+  -- Colorscheme (red / high-contrast / bright)
+{
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require("tokyonight").setup({
+      style = "storm", -- "storm", "moon", "night", or "day"
+    })
+    vim.cmd("colorscheme tokyonight")
+  end,
+  },
+
 })
